@@ -17,6 +17,7 @@ const AxiosTest = () => {
         setLoading(false);
     }
 
+    // 렌더링
     useEffect(() => {
         loadData();
     }, []);
